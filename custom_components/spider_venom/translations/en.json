@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "account": {
+        "title": "Spider Grills account",
+        "description": "Log in with your Spider Grills email and password. Your password is not stored; Home Assistant keeps the session token the Spider Grills app also uses.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "scan_interval": "Scan interval (seconds)"
+        }
+      },
+      "select_device": {
+        "title": "Select device",
+        "description": "Choose the Spider Grills device to add.",
+        "data": {
+          "thing_name": "Device"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Log in again",
+        "description": "Spider Grills needs you to log in again. (Upgrading from v0.2 also requires this, because Spider Grills turned off the old AWS connection.)",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to reach the Spider Grills cloud.",
+      "invalid_auth": "Spider Grills rejected the email or password.",
+      "no_devices": "No Spider Grills devices were found on this account.",
+      "device_missing": "This device is no longer on that Spider Grills account.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "reauth_successful": "Logged in again successfully."
+    }
+  }
+}

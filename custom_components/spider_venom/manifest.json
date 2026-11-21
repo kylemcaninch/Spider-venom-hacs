@@ -1,0 +1,11 @@
+{
+  "domain": "spider_venom",
+  "name": "Spider Grills Venom",
+  "codeowners": ["@kylemcaninch"],
+  "config_flow": true,
+  "documentation": "https://github.com/kylemcaninch/spider-venom-hacs",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/kylemcaninch/spider-venom-hacs/issues",
+  "requirements": [],
+  "version": "0.3.0"
+}
